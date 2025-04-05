@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rampilla Hemachand | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Poppins', sans-serif; background: #0f172a; color: #f1f5f9; line-height: 1.6; overflow-x: hidden; }
+
+    header {
+      background: linear-gradient(135deg, #1e3a8a, #0ea5e9);
+      padding: 3rem 1rem;
+      text-align: center;
+      color: #f1f5f9;
+      animation: fadeInDown 1s ease;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #fbbf24;
+      margin-bottom: 0.5rem;
+    }
+
+    header p, header a {
+      font-size: 1.1rem;
+      color: #e2e8f0;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+      animation: fadeInUp 1s ease;
+    }
+
+    h2 {
+      color: #38bdf8;
+      margin-bottom: 1.5rem;
+      font-size: 2rem;
+      position: relative;
+    }
+
+    h2::after {
+      content: '';
+      position: absolute;
+      width: 50px;
+      height: 4px;
+      background: #38bdf8;
+      left: 0;
+      bottom: -10px;
+    }
+
+    ul { list-style: none; padding-left: 1rem; }
+    li { margin-bottom: 0.5rem; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: linear-gradient(135deg, #1e293b, #334155);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(14, 165, 233, 0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(14, 165, 233, 0.4);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      background: #1e293b;
+      color: #94a3b8;
+    }
+
+    a { color: #38bdf8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Rampilla Hemachand</h1>
+    <p>B.Tech CSE (Cybersecurity, IoT, Blockchain) | RHCSA Certified | Java, Python, C Developer</p>
+    <p><a href="mailto:hemachandrampilla2102@gmail.com">hemachandrampilla2102@gmail.com</a> | +91 83099 42928</p>
+    <p><a href="https://www.linkedin.com/in/rampilla-hemachand-73aa69269" target="_blank">LinkedIn Profile</a></p>
+  </header>
+
+  <section>
+    <h2>Profile</h2>
+    <p>A motivated and skilled Computer Science student with a strong foundation in cybersecurity, IoT, and blockchain, passionate about problem-solving and emerging technologies. RHCSA certified and proficient in multiple programming languages.</p>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>VVITU, Guntur</h3>
+        <p>B.Tech in CSE (Cybersecurity, IoT, Blockchain) | GPA: 8.45</p>
+        <p>2022 - Present</p>
+      </div>
+      <div class="card">
+        <h3>Narayana Junior College</h3>
+        <p>Intermediate | GPA: 9.08</p>
+        <p>2020 - 2022</p>
+      </div>
+      <div class="card">
+        <h3>Ravindra Bharathi Public School</h3>
+        <p>SSC | Grade: 96%</p>
+        <p>2019 - 2020</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> C, Java, Python, C#</li>
+      <li><strong>Cybersecurity:</strong> Burp Suite, Nmap, Metasploit</li>
+      <li><strong>Web Development:</strong> HTML, CSS, JavaScript</li>
+      <li><strong>Others:</strong> MySQL, OS Concepts, Computer Networks, DSA</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Achievements</h2>
+    <ul>
+      <li>RHCSA - Red Hat Certified System Administrator</li>
+      <li>Foundation of CyberSecurity (Coursera)</li>
+      <li>Ethical Hacking Elite Certificate (NPTEL)</li>
+      <li>Programming with Java (NPTEL)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Soft Skills</h2>
+    <ul>
+      <li>Effective Communication</li>
+      <li>Adaptability</li>
+      <li>Problem-Solving</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Hobbies & Interests</h2>
+    <ul>
+      <li>Chess – Enhances strategic thinking</li>
+      <li>Tennis – Improves focus & teamwork</li>
+      <li>Mind-Bending Movies & Series – Boosts creativity</li>
+    </ul>
+  </section>
+
+  <footer>
+    &copy; 2025 Rampilla Hemachand. All rights reserved.
+  </footer>
+</body>
+</html>
